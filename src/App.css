@@ -19,3 +19,47 @@ nav {
 .nav-logo {
   max-width: 100px;
 }
+
+.container {
+  margin: 1rem 1rem;
+}
+
+.hero-image {
+  max-width: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.hero-image img {
+  width: 60%;
+}
+
+header .hero-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-align: left;
+
+
+}
+
+.hero-text {
+  color: #222;
+  font-family: Poppins;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-top: 1rem;
+}
+
+.hero-content {
+  margin-left: 36px;
+  margin-top: 32px;
+}
