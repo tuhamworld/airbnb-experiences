@@ -4,7 +4,7 @@ import photoGrid from '../assets/photoGrid.png'
 
 export default () => {
     return (
-        <header>
+        <section>
             <div className="hero-image">
                 <img src={photoGrid}/>
             </div>
@@ -15,6 +15,6 @@ export default () => {
                     Join unique interactive activities led<br/> by one-of-a-kind hosts—all without leaving <br/> home.
                 </p>
             </div>
-        </header>
+        </section>
     )
 }
