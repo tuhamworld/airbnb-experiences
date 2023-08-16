@@ -7,6 +7,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  color: #222;
+  font-weight: 600;
+}
+
 nav {
   height: 70px;
   display: flex;
@@ -63,4 +72,32 @@ nav {
 .hero-content {
   margin-left: 36px;
   margin-top: 32px;
+}
+
+/* Card Styles */
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+
+}
+
+.card-star {
+  height: 14px;
+  margin-right: 2px;
+}
+
+.card p {
+  margin: 2px 0;
 }
