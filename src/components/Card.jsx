@@ -8,7 +8,7 @@ export default function Card({img, rating, reviewCount, country, title, price })
         <section className ="container">
             <div className="card">
 
-                <img src={img} className="card-image"/>
+                <img src={`./images/${img}`} className="card-image"/>
 
                 <div className="card-stats">
                     <img src={star} className="card-star" />
