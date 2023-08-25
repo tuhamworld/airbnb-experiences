@@ -1,32 +1,33 @@
 import React from "react"
-import Katieimg from '../assets/katie-zaferes.png'
 import star from '../assets/Star.png'
 
-export default function Card() {
+// Using Props for displaying Card data
+export default function Card({img, rating, reviewCount, country, title, price }) {
     return (
         
+        <section className ="container">
+            <div className="card">
 
-        <div className="card container">
+                <img src={img} className="card-image"/>
 
-            <img src={Katieimg} className="card-image"/>
+                <div className="card-stats">
+                    <img src={star} className="card-star" />
+                    <span className="card-review">{rating}</span>
+                    <span className="gray">{reviewCount}• {country}</span>
+                </div>
 
-            <div className="card-stats">
-                <img src={star} className="card-star" />
-                <span className="card-review">5.0</span>
-                <span className="gray">(6)• USA</span>
-            </div>
+                    <p>
+                    {title}
+                    </p>
+                    <p>
+                        <span className="bold">    
+                        From {price}</span> / person
+                    </p>
 
-                <p>
-                Life lessons with Katie Zaferes
-                </p>
-                <p>
-                    <span className="bold">    
-                    From $136</span> / person
-                </p>
+                
 
-            
-
-        </div>
+                </div>
+            </section>
       
         
     )

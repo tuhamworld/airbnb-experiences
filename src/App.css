@@ -31,7 +31,9 @@ nav {
 }
 
 .container {
-  margin: 1rem 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 32px;
 }
 
 .hero-image {
@@ -69,15 +71,11 @@ nav {
   margin-top: 1rem;
 }
 
-.hero-content {
-  margin-left: 36px;
-  margin-top: 32px;
-}
 
 /* Card Styles */
 
 .card {
-  width: 175px;
+  width: 375px;
   font-size: 12px;
 }
 
@@ -100,4 +98,10 @@ nav {
 
 .card p {
   margin: 2px 0;
+}
+
+.card-review,
+.gray,
+.card p {
+  font-size: 1rem;
 }
