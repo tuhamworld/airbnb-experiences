@@ -4,9 +4,9 @@ import star from '../assets/Star.png'
 // Using Props for displaying Card data
 export default function Card(props) {
     let badgeContent
-    if (props.openSpots === 0) {
+    if (props.singleData.openSpots === 0) {
         badgeContent = "SOLD OUT"
-    } else if (props.location === 'Online') {
+    } else if (props.singleData.location === 'Online') {
         badgeContent = "Online"
     }
     return (
