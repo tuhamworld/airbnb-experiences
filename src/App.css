@@ -37,8 +37,6 @@ nav {
 }
 
 .hero-image {
-  max-width: 100%;
-  padding: 0rem 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -46,7 +44,8 @@ nav {
 }
 
 .hero-image img {
-  width: 60%;
+  max-width: 90%;
+  height: 100%;
 }
 
 .hero-title {
