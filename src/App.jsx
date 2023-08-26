@@ -25,7 +25,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <section className="card-container container"> 
       {newDatas}
+
+      </section>
 
       
     </>
