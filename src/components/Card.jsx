@@ -21,7 +21,7 @@ export default function Card({img, rating, reviewCount, country, title, price })
                     </p>
                     <p>
                         <span className="bold">    
-                        From {price}</span> / person
+                        From ${price}</span> / person
                     </p>
 
                 

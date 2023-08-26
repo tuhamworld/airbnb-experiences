@@ -20,7 +20,7 @@ function App() {
         reviewCount='(6)'
         country='USA'
         title='Life lessons with Katie Zaferes'
-        price='$139'
+        price='139'
       
       />
     
