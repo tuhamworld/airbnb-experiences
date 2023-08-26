@@ -10,11 +10,12 @@ function App() {
   const newDatas = data.map(singleData => {
     return <Card
       key={singleData.id}
-      singleData = {singleData}      
+      singleData={singleData} 
+      
       />
-  })
-  return (
-    <>
+    })
+    return (
+      <>
       <Navbar />
     <Hero />
       <section className="card-container container"> 
@@ -25,6 +26,12 @@ function App() {
 }
 
 export default App
+
+
+// Using Spread operator helps gets the item in the same format it was listed below
+// {...singleData} 
+
+
 
 
 // Previously while destructuring props
