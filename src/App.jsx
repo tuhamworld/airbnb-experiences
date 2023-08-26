@@ -8,13 +8,17 @@ import './App.css'
 
 function App() {
   const newDatas = data.map(singleData => {
+
     return <Card
+      
+        card = {singleData.id}
         img={singleData.coverImg}
         rating={singleData.stats.rating}
         reviewCount={singleData.stats.reviewCount}
         location={singleData.location}
         title={singleData.title}
         price={singleData.price}
+        openSpots = {singleData.openSpots}
       
       />
     
