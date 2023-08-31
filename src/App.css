@@ -4,11 +4,11 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .gray {
-  color: #918E9B;
+  color: #918e9b;
 }
 
 .bold {
@@ -22,8 +22,7 @@ nav {
   align-items: center;
   padding-left: 1.5rem;
   background-color: #fff;
-  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
-
+  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1));
 }
 
 .nav-logo {
@@ -56,8 +55,6 @@ nav {
   font-weight: 600;
   line-height: 110%;
   text-align: left;
-
-
 }
 
 .hero-text {
@@ -70,7 +67,6 @@ nav {
   margin-top: 1rem;
 }
 
-
 /* Card Styles */
 
 .card {
@@ -80,19 +76,16 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-
 }
 
 .card-image {
   width: 100%;
   border-radius: 9px;
-
 }
 
 .card-stats {
   display: flex;
   align-items: center;
-
 }
 
 .card-star {
